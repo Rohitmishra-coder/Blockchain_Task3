@@ -1,3 +1,5 @@
+<img width="1366" height="692" alt="DeFi" src="https://github.com/user-attachments/assets/2dc05bd2-0b0a-495b-b954-2cd517502368" />
+<img width="1366" height="692" alt="DeFi" src="https://github.com/user-attachments/assets/853dbf38-c64c-4ead-b624-fb6ef1f3f1a1" />
 
 A decentralized application for lending and borrowing ETH with a smart contract. Interest is calculated dynamically.
 
@@ -18,3 +20,5 @@ A decentralized application for lending and borrowing ETH with a smart contract.
 3. Open `index.html` with Live Server (VS Code)
 4. Connect MetaMask and test lending/borrowing
 
+# proof
+<img width="1366" height="692" alt="DeFi" src="https://github.com/user-attachments/assets/f93697c5-06c3-4708-8601-6b32909b9ff1" />
