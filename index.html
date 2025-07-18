@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>DeFi Lending & Borrowing DApp</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      background: #f0f0f0;
+    }
+
+    h1, h3 {
+      color: #333;
+    }
+
+    input {
+      padding: 8px;
+      margin-bottom: 10px;
+      display: block;
+      width: 200px;
+    }
+
+    button {
+      padding: 8px 15px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      margin-bottom: 20px;
+      cursor: pointer;
+    }
+
+    button:disabled {
+      background-color: #ccc;
+      cursor: not-allowed;
+    }
+
+    #walletAddress {
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>DeFi Lending & Borrowing DApp</h1>
+
+  <button onclick="connectWallet()">Connect Wallet</button>
+  <p id="walletAddress"></p>
+
+  <h3>Lend ETH</h3>
+  <input type="number" id="lendAmount" placeholder="ETH Amount to Lend">
+  <button id="lendBtn" onclick="lend()" disabled>Lend</button>
+
+  <h3>Borrow ETH</h3>
+  <input type="number" id="borrowAmount" placeholder="ETH Amount to Borrow">
+  <button id="borrowBtn" onclick="borrow()" disabled>Borrow</button>
+
+  <h3>Repay Loan</h3>
+  <input type="number" id="repayAmount" placeholder="ETH Amount to Repay">
+  <button id="repayBtn" onclick="repay()" disabled>Repay</button>
+
+  <!-- ✅ Load Ethers.js before your own script -->
+  <script src="https://cdn.jsdelivr.net/npm/ethers@5.7.2/dist/ethers.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
