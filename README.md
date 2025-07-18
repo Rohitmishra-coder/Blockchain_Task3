@@ -1,5 +1,3 @@
-<img width="1366" height="692" alt="DeFi" src="https://github.com/user-attachments/assets/2dc05bd2-0b0a-495b-b954-2cd517502368" />
-<img width="1366" height="692" alt="DeFi" src="https://github.com/user-attachments/assets/853dbf38-c64c-4ead-b624-fb6ef1f3f1a1" />
 
 A decentralized application for lending and borrowing ETH with a smart contract. Interest is calculated dynamically.
 
