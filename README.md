@@ -20,3 +20,6 @@ A decentralized application for lending and borrowing ETH with a smart contract.
 
 # proof
 <img width="1366" height="692" alt="DeFi" src="https://github.com/user-attachments/assets/f93697c5-06c3-4708-8601-6b32909b9ff1" />
+
+# Author
+**Rohit Mishra**
